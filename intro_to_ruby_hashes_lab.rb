@@ -55,6 +55,6 @@ def monopoly_with_fourth_tier
 	monopoly[:railroads][:names][:b_and_o_railroad] = {}
 	monopoly[:railroads][:names][:shortline] = {}
 	#copy and paste the monopoly hash you build in the previous method. We're going to add stuff to it here!
-	monopoly[:railroads][:names][:reading_railroad]['mortgage_value']  = $100
+	monopoly[:railroads][:names][:reading_railroad]['mortgage_value'] = $100
 monopoly
 end

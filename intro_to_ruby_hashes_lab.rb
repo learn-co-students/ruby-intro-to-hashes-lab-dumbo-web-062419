@@ -31,6 +31,7 @@ def monopoly_with_third_tier
 	monopoly[:railroads][:rent_in_dollars][:one_piece_owned] = 25
   monopoly[:railroads][:rent_in_dollars][:two_pieces_owned] = 50
 	monopoly[:railroads][:rent_in_dollars][:three_pieces_owned] = 100
+	monopoly[:railroads][:rent_in_dollars][:four_pieces_owned] = 200
 	#copy and paste the monopoly hash you built in the previous method. We're going to add stuff to it here!
 monopoly
 end
